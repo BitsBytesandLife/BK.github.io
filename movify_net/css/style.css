@@ -1,0 +1,53 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+nav .brand-logo {
+  /* color: #673ab7; */
+  color: #3df003 !important;
+  font-family: "Raleway", sans-serif;
+}
+
+.input-field .prefix.active {
+  color: #3df003;
+}
+
+.footer-title {
+  color: #3df003 !important;
+}
+
+.input-field label {
+  color: #3df003;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #3df003;
+}
+
+.input-field [type="text"] {
+  color: #3df003 !important;
+  border-bottom: 1px solid #3df003;
+}
+
+input:focus {
+  border-bottom: 1px solid #3df003 !important;
+  box-shadow: 0 1px 0 0 #3df003 !important;
+}
+
+label.active {
+  color: #3df003 !important;
+}
